@@ -158,7 +158,7 @@ router.post(
 
       await order.save();
   
-      return res.send({approved: true});
+      return res.send(true);
     })
   );
 
